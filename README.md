@@ -114,6 +114,8 @@ A complete PaaS platform built from the ground up with:
 
 ## Technical Summary
 
+> 📊 **Global Technical Leadership**: For a comprehensive technical document establishing our global leadership position and covering all technical aspects in detail, see [Global Technical Leadership Document](docs/raw/GLOBAL-TECHNICAL-LEADERSHIP-DOCUMENT.md).
+
 > 📊 **Detailed Architecture Diagrams**: See [Architecture & Process Diagrams](#architecture--process-diagrams) section for comprehensive visual documentation of system architecture, deployment processes, and security flows for each edition.
 
 ### Common Architecture (All Editions)
@@ -247,6 +249,7 @@ This repository contains comprehensive documentation for all three product editi
 - `docs/raw/FORTRES-DECK.md` - Fortress Edition investor pitch deck
 
 ### Technical Documentation
+- 📊 **[Global Technical Leadership Document](docs/raw/GLOBAL-TECHNICAL-LEADERSHIP-DOCUMENT.md)** - Comprehensive technical document establishing global leadership position, covering software architecture, locked-system infrastructure, security protocols, access control layers, AI/ML core structure, and unique differentiators
 - `docs/raw/ACCELERATOR-TECHNICAL-SUMMARY.md` - Accelerator technical architecture
 - `docs/raw/ENTERPRISE-TECHNICAL-SUMMARY.md` - Enterprise technical architecture
 - `docs/raw/FORTRESS-TECHNICAL-SUMMARY.md` - Fortress technical architecture

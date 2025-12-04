@@ -14,6 +14,8 @@ This project delivers a next-generation Platform-as-a-Service (PaaS) built with 
 
 All three editions share the same architectural DNA but differ in certification depth, infrastructure scale, and time-to-market. The project addresses the growing regulatory requirements (EU DORA, NIS2, CRA, eIDAS 2, BSI C5, UAE NESA) while providing a viable alternative to existing cloud platforms that rely on legacy Linux kernels with millions of lines of unverified code.
 
+> 📊 **Visual Documentation**: Comprehensive architecture, process, cost, and timeline diagrams are available for each edition. See [Architecture & Process Diagrams](#architecture--process-diagrams) section below.
+
 ---
 
 ## Project Overview
@@ -57,6 +59,7 @@ A complete PaaS platform built from the ground up with:
 **Year 3 ARR Target**: €42M (450 customers averaging €93k ARR)
 
 📄 **Documentation**:
+- 📊 **[Architecture & Process Diagrams](docs/raw/ACCELERATOR-DIAGRAMS.md)** - 18 comprehensive Mermaid diagrams covering architecture, processes, costs, timelines, and flows
 - [Investor Deck](docs/raw/ACCELERATOR-DECK.md)
 - [Technical Summary](docs/raw/ACCELERATOR-TECHNICAL-SUMMARY.md)
 - [Product Requirements Document](docs/raw/ACCELERATOR-PRD-INITIAL-PHASE.md)
@@ -79,6 +82,7 @@ A complete PaaS platform built from the ground up with:
 **Year 3 ARR Target**: €78M (120 customers averaging €650k)
 
 📄 **Documentation**:
+- 📊 **[Architecture & Process Diagrams](docs/raw/ENTERPRISE-DIAGRAMS.md)** - 17 comprehensive Mermaid diagrams covering architecture, processes, costs, timelines, and flows
 - [Investor Deck](docs/raw/ENTERPRISE-DECK.md)
 - [Technical Summary](docs/raw/ENTERPRISE-TECHNICAL-SUMMARY.md)
 - [Product Requirements Document](docs/raw/ENTERPRISE-PRD-INITIAL-PHASE.md)
@@ -101,6 +105,7 @@ A complete PaaS platform built from the ground up with:
 **Year 3 ARR Target**: €380M (15 fortress customers averaging €25M)
 
 📄 **Documentation**:
+- 📊 **[Architecture & Process Diagrams](docs/raw/FORTRESS-DIAGRAMS.md)** - 15 comprehensive Mermaid diagrams covering architecture, processes, costs, timelines, and flows
 - [Investor Deck](docs/raw/FORTRES-DECK.md)
 - [Technical Summary](docs/raw/FORTRESS-TECHNICAL-SUMMARY.md)
 - [Product Requirements Document](docs/raw/FORTRESS-PRD-INITIAL-PHASE.md)
@@ -108,6 +113,8 @@ A complete PaaS platform built from the ground up with:
 ---
 
 ## Technical Summary
+
+> 📊 **Detailed Architecture Diagrams**: See [Architecture & Process Diagrams](#architecture--process-diagrams) section for comprehensive visual documentation of system architecture, deployment processes, and security flows for each edition.
 
 ### Common Architecture (All Editions)
 
@@ -118,6 +125,11 @@ All three editions share core security principles:
 3. **Supply-Chain Security**: AI-driven scanning of every commit, dependency, and container image
 4. **Sovereign Infrastructure**: Germany + UAE deployment, encryption keys never leave jurisdiction
 5. **Zero-Trust Networking**: Only ports 22 and 443 open by default, immutable firewall rules
+
+For detailed architecture diagrams showing component relationships, data flows, and infrastructure topology, see:
+- [Accelerator Architecture Diagrams](docs/raw/ACCELERATOR-DIAGRAMS.md#1-system-architecture-overview)
+- [Enterprise Architecture Diagrams](docs/raw/ENTERPRISE-DIAGRAMS.md#1-system-architecture-overview)
+- [Fortress Architecture Diagrams](docs/raw/FORTRESS-DIAGRAMS.md#1-system-architecture-overview)
 
 ### Technology Stack Comparison
 
@@ -148,6 +160,8 @@ All three editions share core security principles:
 ---
 
 ## Budget & Financial Summary
+
+> 📊 **Visual Cost Breakdowns**: Detailed cost flow diagrams, pie charts, and financial projections are available in the [Architecture & Process Diagrams](#architecture--process-diagrams) section for each edition.
 
 ### CAPEX Overview (18-Month Initial Investment)
 
@@ -190,6 +204,36 @@ All three editions share core security principles:
 📄 **Detailed Financial Documentation**:
 - [Budget Overview](docs/raw/BUDGET-OVERVIEW.md) - Master budgeting document with 18-month burn breakdown
 - [CAPEX/OPEX Breakdown](docs/raw/CAPEX-OPEX-NUMBERS-BREAKDOWN-FINANCIALS.md) - Detailed OPEX, hiring costs, and steady-state projections
+- 📊 **Visual Cost Diagrams**: See [Architecture & Process Diagrams](#architecture--process-diagrams) for interactive cost breakdown charts and detailed cost flow diagrams
+
+---
+
+## Architecture & Process Diagrams
+
+Each edition includes comprehensive visual documentation with interactive Mermaid diagrams:
+
+### 📊 Quick Access to Diagrams
+
+- **[Accelerator Edition Diagrams](docs/raw/ACCELERATOR-DIAGRAMS.md)** - 18 comprehensive diagrams
+- **[Enterprise Edition Diagrams](docs/raw/ENTERPRISE-DIAGRAMS.md)** - 17 comprehensive diagrams  
+- **[Fortress Edition Diagrams](docs/raw/FORTRESS-DIAGRAMS.md)** - 15 comprehensive diagrams
+
+### What's Included in Each Diagram Set
+
+Each diagram file contains:
+
+1. **System Architecture Overview** - Complete component relationships and infrastructure topology
+2. **Process Flows** - Deployment, CI/CD, security scanning, and customer onboarding processes
+3. **Cost Breakdowns** - Interactive pie charts and detailed cost flow diagrams (CAPEX/OPEX)
+4. **Timeline & Milestones** - Gantt charts showing development, certification, and revenue milestones
+5. **Security Flows** - Security guarantee validation and certification processes
+6. **Infrastructure Diagrams** - Network topology and deployment locations
+7. **Customer Flows** - Onboarding, pricing, and segmentation diagrams
+8. **Risk & Mitigation** - Risk analysis and mitigation strategies
+9. **Performance Benchmarks** - Measured performance metrics
+10. **Team Structure** - Headcount growth and organizational charts
+
+All diagrams are rendered using Mermaid syntax and are compatible with GitHub, GitLab, and most documentation platforms.
 
 ---
 
@@ -206,6 +250,10 @@ This repository contains comprehensive documentation for all three product editi
 - `docs/raw/ACCELERATOR-TECHNICAL-SUMMARY.md` - Accelerator technical architecture
 - `docs/raw/ENTERPRISE-TECHNICAL-SUMMARY.md` - Enterprise technical architecture
 - `docs/raw/FORTRESS-TECHNICAL-SUMMARY.md` - Fortress technical architecture
+
+### Architecture & Process Diagrams
+
+See the [Architecture & Process Diagrams](#architecture--process-diagrams) section above for detailed information about the comprehensive visual documentation available for each edition.
 
 ### Product Requirements
 - `docs/raw/ACCELERATOR-PRD-INITIAL-PHASE.md` - Accelerator product requirements
@@ -241,6 +289,8 @@ This repository contains comprehensive documentation for all three product editi
 ---
 
 ## Timeline & Milestones
+
+> 📊 **Interactive Timeline Diagrams**: Comprehensive Gantt charts and milestone timelines are available in the [Architecture & Process Diagrams](#architecture--process-diagrams) section for each edition.
 
 ### Accelerator Edition
 - **Month 1-3**: Company live, first 20 hires, ISO shipped to 5 design partners
@@ -361,8 +411,3 @@ For detailed investment materials, see the respective investor decks in the `doc
 
 See [LICENSE](LICENSE) file for details.
 
----
-
-**Last Updated**: January 2026  
-**Document Version**: 1.0  
-**Classification**: Public
